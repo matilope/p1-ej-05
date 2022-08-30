@@ -9,13 +9,11 @@ function ingresar() {
 }
 
 function mostrar() {
-    if(numero===0){
-        console.info(`El numero es ${numero}.`);
-    }
-    if(!(numero%2)&&numero!==0){
-        console.info(`El numero ${numero} es par.`);
-    }
-    if(numero%2){
-        console.info(`El numero ${numero} es impar.`);
-    }
+  if (numero === 0) {
+    console.info(`El numero es ${numero}.`);
+  } else if (!(numero % 2)) {
+    console.info(`El numero ${numero} es par.`);
+  } else if (numero % 2) {
+    console.info(`El numero ${numero} es impar.`);
+  }
 }
